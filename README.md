@@ -1,4 +1,4 @@
-﻿# Proyecto UTP - TIENDA DE "ALGO"
+﻿# Proyecto UTP - My Pet Shop
 
 
 
