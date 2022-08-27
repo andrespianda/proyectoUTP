@@ -3,7 +3,7 @@
 
 
 ## Acerca
-En este proyecto se pretende dar solucion a la necesidad de adquirir "El producto" y así satisfacer la necesidad de los consumidores.
+En este proyecto se pretende dar solucion a la necesidad de adquirir productos de la tienda de mascotas My Pet Shop y así satisfacer la necesidad de los consumidores.
 
 ## Integrantes
 - > Nancy Helena Alzate Cardona
