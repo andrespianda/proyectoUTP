@@ -18,8 +18,9 @@ public class Usuario {
     private String correo;
     private String celular;
     private String direccion;
+    private String contrasena;
 
-    public Usuario(int identificacionUsuario, String nombreUsuario, String apellidoUsuario, String nombreMascota, String razaMascota, String tipoMascota, String correo, String celular, String direccion) {
+    public Usuario(int identificacionUsuario, String nombreUsuario, String apellidoUsuario, String nombreMascota, String razaMascota, String tipoMascota, String correo, String celular, String direccion, String contrasena) {
         this.identificacionUsuario = identificacionUsuario;
         this.nombreUsuario = nombreUsuario;
         this.apellidoUsuario = apellidoUsuario;
@@ -29,6 +30,7 @@ public class Usuario {
         this.correo = correo;
         this.celular = celular;
         this.direccion = direccion;
+        this.contrasena = contrasena;
     }
 
     public int getIdentificacionUsuario() {
@@ -103,11 +105,20 @@ public class Usuario {
         this.direccion = direccion;
     }
 
+    public String getContrasena() {
+        return contrasena;
+    }
+
+    public void setContrasena(String contrasena) {
+        this.contrasena = contrasena;
+    }
+
     @Override
     public String toString() {
-        return "Usuario{" + "identificacionUsuario=" + identificacionUsuario + ", nombreUsuario=" + nombreUsuario + ", apellidoUsuario=" + apellidoUsuario + ", nombreMascota=" + nombreMascota + ", razaMascota=" + razaMascota + ", tipoMascota=" + tipoMascota + ", correo=" + correo + ", celular=" + celular + ", direccion=" + direccion + '}';
+        return "Usuario{" + "identificacionUsuario=" + identificacionUsuario + ", nombreUsuario=" + nombreUsuario + ", apellidoUsuario=" + apellidoUsuario + ", nombreMascota=" + nombreMascota + ", razaMascota=" + razaMascota + ", tipoMascota=" + tipoMascota + ", correo=" + correo + ", celular=" + celular + ", direccion=" + direccion + ", contrasena=" + contrasena + '}';
     }
-    
+
+
     
             
 }
