@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+            <!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+            <!-- Popper JS -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+            <!-- Latest compiled JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+       <!-- <script src="js/index.js"></script>-->
+        <link href="css/index.css" rel="stylesheet">
+      
+        
+        
+        <title>Registro</title>
+    </head>
+    <body>
+        <!--nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Registro de usuarios y mascotas</a>
+        </nav>
+        <main class="p-4 d-flex justify-content-center">
+            <div class="card sizeDiv">
+                <div class="card-body">
+                    <form id="form-register" class="pb-4">
+                        <div class="form-group">
+                            <label for="input-username">Nombre de usuario</label>
+                            <input type="text" class="form-control" id="input-username" placeholder="Nombre de usuario" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="input-contrasena">Contraseña</label>
+                                <input type="password" class="form-control" id="input-contrasena" placeholder="Contraseña" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="input-contrasena-repeat">Repetir contraseña</label>
+                                <input type="password" class="form-control" id="input-contrasena-repeat" placeholder="Repetir contraseña" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-nombre">Nombre</label>
+                            <input type="text" class="form-control" id="input-nombre" placeholder="Nombre" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="input-apellidos">Apellidos</label>
+                            <input type="text" class="form-control" id="input-apellidos" placeholder="Apellidos" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="input-identificacionUsuario">Numero de Identificacion</label>
+                            <input type="text" class="form-control" id="input-identificacionUsuario" placeholder="# Identificacion" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="input-email">Email</label>
+                            <input type="text" class="form-control" id="input-email" placeholder="Email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="input-nombreMascota">Nombre de laMascota</label>
+                            <input type="text" class="form-control" id="input-nombreMascota" placeholder="Mascota" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-razaMascota">Raza de la Mascota</label>
+                            <input type="text" class="form-control" id="input-razaMascota" placeholder="Raza" required>
+                        </div>
+    
+                         <div class="form-group">
+                            <label for="input-tipoMascota">Tipo de Mascota</label>
+                            <input type="text" class="form-control" id="input-tipoMascota" placeholder="Tipo"  required>
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="input-celular">celular</label>
+                            <input type="text" class="form-control" id="input-celular" placeholder="0" required>
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="input-direccion">Direccion</label>
+                            <input type="text" class="form-control" id="input-direccion" placeholder="direccion"  required>
+                        </div>
+                        
+                        <input type="submit" class="btn btn-primary" id="register-btn" value="Registrar usuario" />
+                    </form>
+                    <div id="register-error" class="alert alert-danger d-none" role="alert"></div>
+                    <a href="index.html">¿Ya tienes cuenta? Iniciar sesión</a>
+                </div>
+            </div> 
+        </main>-->
+         <header>
+        <figure class="container-logo">
+            <img src="./img/ringos-pet-shop-logo-1024x1007.webp" alt="logo" class="image-logo">
+        </figure>
+        <figure class="container-menu">
+            <img src="./img/Vector.svg" alt="menu" class="image-menu">
+        </figure>
+        <div class="navbar-header">
+            <div class="home"><a href="/index.html" class="navbar-header-text">Home</a></div>
+            <div class="productos"><a href="" class="navbar-header-text">Productos</a></div>
+            <div class="nosotros"><a href="/html/login.html" class="navbar-header-text">Login</a></div>
+            <div class="servicios"><a href="/html/Registrate.html" class="navbar-header-text">Registrarse</a></div>
+        </div>
+    </header>
+    <main style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+        <div class="container" style="width:80vw;">
+            <form class="row g-3" id="form-register">
+              <div class="col-md-6">
+                <label for="input-username" class="form-label">Username</label>
+                <input type="text" class="form-control" id="input-username">
+              </div>
+              <div class="col-md-6">
+                <label for="input-nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="input-nombre">
+              </div>
+              <div class="col-md-6">
+                <label for="input-apellidos" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="input-apellidos">
+              </div>
+                <div class="col-md-6">
+                <label for="input-identificacionUsuario" class="form-label">Numero de identificacion</label>
+                <input type="text" class="form-control" id="input-identificacionUsuario">
+              </div>
+              <div class="col-md-6">
+                <label for="input-nombreMascota" class="form-label">Nombre mascota</label>
+                <input type="text" class="form-control" id="input-nombreMascota">
+              </div>
+              <div class="col-md-6">
+                <label for="input-razaMascota" class="form-label">Raza de mascota</label>
+                <input type="text" class="form-control" id="input-razaMascota">
+              </div>
+              <div class="col-md-6">
+                <label for="input-tipoMascota" class="form-label">Tipo de mascota</label>
+                <input type="text" class="form-control" id="input-tipoMascota">
+              </div>
+              <div class="col-md-6">
+                <label for="input-email" class="form-label">Correo</label>
+                <input type="email" class="form-control" id="input-email">
+              </div>
+              <div class="col-md-6">
+                <label for="input-celular" class="form-label">Celular</label>
+                <input type="text" class="form-control" id="input-celular">
+              </div>
+              <div class="col-12">
+                <label for="input-direccion" class="form-label">Direccion</label>
+                <input type="text" class="form-control" id="input-direccion" >
+              </div>
+              <div class="col-md-6">
+                <label for="input-contrasena" class="form-label">Password</label>
+                <input type="password" class="form-control" id="input-contrasena">
+              </div>
+               <div class="col-md-6">
+                <label for="input-contrasena-repeat" class="form-label">Confirmar contraseña</label>
+                <input type="password" class="form-control" id="input-contrasena-repeat">
+              </div>
+              <div class="col-12">
+               <!-- <button type="submit" class="btn btn-primary" id="register-btn" value="Registrar usuario">Sign in</button>-->
+                <input type="submit" class="btn btn-primary" id="register-btn" value="Registrar usuario" />
+              </div>
+              </form>
+        </div>
+        <form class="row row-cols-lg-auto g-3 align-items-center"></form>
+         <div id="register-error" class="alert alert-danger d-none" role="alert"></div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    </body>
+</html>

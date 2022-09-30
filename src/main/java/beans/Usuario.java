@@ -10,6 +10,7 @@ package beans;
  */
 public class Usuario {
     private int identificacionUsuario;
+    private String username;
     private String nombreUsuario;
     private String apellidoUsuario;
     private String nombreMascota;
@@ -20,8 +21,9 @@ public class Usuario {
     private String direccion;
     private String contrasena;
 
-    public Usuario(int identificacionUsuario, String nombreUsuario, String apellidoUsuario, String nombreMascota, String razaMascota, String tipoMascota, String correo, String celular, String direccion, String contrasena) {
+    public Usuario(int identificacionUsuario, String username, String nombreUsuario, String apellidoUsuario, String nombreMascota, String razaMascota, String tipoMascota, String correo, String celular, String direccion, String contrasena) {
         this.identificacionUsuario = identificacionUsuario;
+        this.username = username;
         this.nombreUsuario = nombreUsuario;
         this.apellidoUsuario = apellidoUsuario;
         this.nombreMascota = nombreMascota;
@@ -39,6 +41,14 @@ public class Usuario {
 
     public void setIdentificacionUsuario(int identificacionUsuario) {
         this.identificacionUsuario = identificacionUsuario;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getNombreUsuario() {
@@ -115,10 +125,10 @@ public class Usuario {
 
     @Override
     public String toString() {
-        return "Usuario{" + "identificacionUsuario=" + identificacionUsuario + ", nombreUsuario=" + nombreUsuario + ", apellidoUsuario=" + apellidoUsuario + ", nombreMascota=" + nombreMascota + ", razaMascota=" + razaMascota + ", tipoMascota=" + tipoMascota + ", correo=" + correo + ", celular=" + celular + ", direccion=" + direccion + ", contrasena=" + contrasena + '}';
+        return "Usuario{" + "identificacionUsuario=" + identificacionUsuario + ", username=" + username + ", nombreUsuario=" + nombreUsuario + ", apellidoUsuario=" + apellidoUsuario + ", nombreMascota=" + nombreMascota + ", razaMascota=" + razaMascota + ", tipoMascota=" + tipoMascota + ", correo=" + correo + ", celular=" + celular + ", direccion=" + direccion + ", contrasena=" + contrasena + '}';
     }
 
-
+    
     
             
 }
