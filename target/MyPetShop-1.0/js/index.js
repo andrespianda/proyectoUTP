@@ -62,10 +62,6 @@ function registrarUsuario() {
         if (contrasena === contrasenaConfirmacion) {
 
 
-
-
-
-
             $.ajax({
                 type: "GET",
                 dataType: "html",
@@ -96,7 +92,7 @@ function registrarUsuario() {
                 }
             });
         } else {
-            $("#register-error").removeClass("d-none");
+            //$("#register-error").removeClass("d-none");
             $("#register-error").html("Las contraseñas no coinciden");
         }
     
