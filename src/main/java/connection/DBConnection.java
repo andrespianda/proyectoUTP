@@ -15,7 +15,7 @@ public class DBConnection {
 
     Connection connection;
 
-    /* static String bd = "the_pet_shop";
+    /*static String bd = "the_pet_shop";
     static String port = "3306";
     static String login = "root";
     static String password = "admin";*/
