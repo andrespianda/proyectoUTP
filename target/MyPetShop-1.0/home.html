@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+              integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+              crossorigin="anonymous" />
+
+       <!-- <script src="js/main.js"></script>-->
+        <link rel="stylesheet" href="css/index.css" />
+        <title>Inicio</title>
+    </head>
+   <!-- <body>
+
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Inicio</a>
+            <div id="user-data-profile">
+                <span class="badge badge-light mr-3" id="user-saldo"></span>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary dropdown-toggle"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span id="ajustes">Ajustes </span>
+                    </button>
+                    <div class="dropdown-menu" id="main-menu">
+                        <a id="mi-perfil-btn" class="dropdown-item">Mi perfil</a>
+                        <a id="salir-btn" class="dropdown-item" href="index.html">Salir</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main class="p-4 d-flex justify-content-center">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Título</th>
+                        <th scope="col" id="ordenar-genero" data-toogle="tooltip" 
+                            data-placement="top" title="Ordenar por género">Genero
+                            <span class="fas fa-sort" id="icono-ordenar"></span></th>
+                        <th scope="col">Autor</th>
+                        <th scope="col">Copias disponibles</th>
+                        <th scope="col">Novedad</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Reservar</th>
+                    </tr>
+                </thead>
+                <tbody id="peliculas-tbody">
+
+                </tbody>
+            </table>
+        </main>
+
+    </body>-->
+    <body>
+    <header>
+        <figure class="container-logo">
+            <img src="./img/ringos-pet-shop-logo-1024x1007.webp" alt="logo" class="image-logo">
+        </figure>
+        <figure class="container-menu">
+            <img src="./img/Vector.svg" alt="menu" class="image-menu">
+        </figure>
+        <div class="navbar-header">
+            <div class="home"><a href="/index.html" class="navbar-header-text">Home</a></div>
+            <div class="productos"><a href="" class="navbar-header-text">Productos</a></div>
+            <div class="nosotros"><a href="/html/login.html" class="navbar-header-text">Login</a></div>
+            <div class="servicios"><a href="/html/Registrate.html" class="navbar-header-text">Registrarse</a></div>
+        </div>
+    </header>
+    <main>
+        <section class="container-main">
+            <div class="ad">
+                <p>¡Es un placer tenerte aquí!</p>
+            </div><br>
+            <p class="ad-text">¡Comederos en descuento!</p><br>
+            <button class="btn-main">COMEDEROS</button>
+        </section><br>
+        <section class="topSellers">
+            <figure class="pawprint">
+                <img src="./img/pawprint.svg" alt="pawprint" class="image-pawprint">
+            </figure>
+            <h2 class="topSellers-text">Productos <br> Destacados</h2><br>
+            <nav class="navbar">
+                <ul type="none" class="navbar-list">
+                   <li><a href="" class="navbar-text">Comederos</a></li>
+                   <li><a href="" class="navbar-text">-</a></li>
+                   <li><a href="" class="navbar-text">Accesorios</a></li>
+                   <li><a href="" class="navbar-text">-</a></li>
+                   <li><a href="" class="navbar-text">Comida</a></li>
+                </ul>
+            </nav><br><br>
+            <div class="container-card">
+                <article class="card">
+                    <figure class="churrasquito">
+                        <img src="./img/churrasquito.svg" alt="churrasquito" class="image-churrasquito">
+                        <figcaption>Churrasquito <br> $30.000</figcaption>
+                    </figure>
+                </article><br><br>
+                <article class="card2">
+                    <figure class="comedero">
+                        <img src="./img/comedero.svg" alt="comedero" class="image-comedero">
+                        <figcaption>Comedero para perro <br> $20.000</figcaption>
+                    </figure>
+                </article>
+            </div><br><br>
+            <div class="container-card2">
+                <article class="card3">
+                    <figure class="huesito">
+                        <img src="./img/Huesito.svg" alt="huesito" class="image-huesito">
+                        <figcaption>Huesito para perro <br> $10.000</figcaption>
+                    </figure>
+                </article><br><br>
+                <article class="card4">
+                    <figure class="huesito">
+                        <img src="./img/Huesito.svg" alt="huesito" class="image-huesito">
+                        <figcaption>Huesito para perro <br> $10.000</figcaption>
+                    </figure>
+                </article>
+            </div>
+        </section><br><br>   
+        <section class="banner">
+            <div class="item">
+                <h2 class="item-text">Petshop</h2>
+                <h2 class="item-text2">ONLINE</h2>
+            </div>
+            <div class="container-btn-banner">
+                <button class="btn-banner">Promo!!!</button>
+            </div>
+        </section>
+        <form class="form-mail" method="post">
+            <figure class="sendMail">
+                <img src="./img/enviar-correo 1.svg" alt="" class="image-sendMail"> 
+            </figure>
+            <div class="fieldMail">
+                <input class="inputMail" type="text" id="form-suscription" name="form-suscription" placeholder="Ingresa correo electronico" required>
+            </div>
+            <div class="btn-mail">
+                <button class="btn-form" value="Enviar" type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="container-footer">
+            <div class="location">
+                <img src="./img/location 1.svg" alt="">
+            </div>
+            <div class="telephone">
+                <img src="./img/phone-call 1.svg" alt="">
+            </div>
+            <div class="correo">
+                <img src="./img/maill.svg" alt="">
+            </div> 
+        </div>   
+        <div class="terms">
+            <div class="conditions">
+                <p class="conditions-title">Terminos</p>
+            </div>
+            <div class="rules">
+                <p class="rules-title">Reglamento</p>
+            </div>
+        </div>    
+    </footer>
+</body>
+</html>
