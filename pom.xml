@@ -35,11 +35,11 @@
             <version>2.9.1</version>
         </dependency>
         
-        <dependency>     
+        <!--<dependency>     
             <groupId>com.apple</groupId>     
             <artifactId>AppleJavaExtensions</artifactId>     
             <version>1.4</version> 
-        </dependency>
+        </dependency>-->
     </dependencies>
 
     <build>
